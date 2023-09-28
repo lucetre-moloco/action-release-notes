@@ -50,15 +50,6 @@ jobs:
         with:
           ref: ${{ inputs.commit-sha }}
         
-        - name: Create tag
-        with:
-          script: |
-            github.rest.git.createRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: 'refs/tags/<tagname>',
-              sha: context.sha
-            })
       - name: Create a tag on the input commit
         uses: actions/github-script@v6
         with:
