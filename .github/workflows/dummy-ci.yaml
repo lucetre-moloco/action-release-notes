@@ -6,6 +6,25 @@ name: Dummy CI
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      microservice:
+        required: true
+        type: choice
+        description: Name of microservice
+        options: 
+        - monalisa
+        - cschleiden
+      tag:
+        required: true
+        type: string
+        description: Version tag
+        default: 20230928.PR123.R3
+      commit-sha:
+        required: true
+        type: string
+        description: Commit SHA to checkout
+        default: 07ef390
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,9 +35,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
@@ -28,3 +44,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ inputs.commit-sha }}
+        
+      - name: Add a tag on the input commit
+        run: |
+          git tag v${{ inputs.tag }}-${{ inputs.microservice }} ${{ inputs.commit-sha }}
+          git push --tags
+      
