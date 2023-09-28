@@ -36,13 +36,12 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
       - name: Set version tag
         id: set-version
         run: |
-          REVISION_ID=${{ inputs.revision-id }}
-          MICROSERVICE=${{ inputs.microservice }}
-          echo "tag=v$(date '+%Y%m%d%H%M%S').R${REVISION_ID:=0}-${MICROSERVICE:=apple}" >> $GITHUB_OUTPUT
+          REVISION_ID=${{ inputs.revision-id:=0 }}
+          MICROSERVICE=${{ inputs.microservice:=apple }}
+          echo "tag=v$(date '+%Y%m%d%H%M%S').R${REVISION_ID}-${MICROSERVICE}" >> $GITHUB_OUTPUT
 
       - name: Create a tag on the input commit (gh-api)
         if: false
