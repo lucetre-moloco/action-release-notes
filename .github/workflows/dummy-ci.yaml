@@ -68,9 +68,8 @@ jobs:
           COMMIT_SHA: ${{ inputs.commit-sha }}
       
       - name: Create a tag on the input commit (gh-cli)
-        continue-on-error: true
         run: |
-          gh release create ${{ env.VERSION_TAG }} --target ${{ env.COMMIT_SHA }}
+          gh release create ${{ env.VERSION_TAG }} --target ${{ env.COMMIT_SHA }} --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}
           VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
