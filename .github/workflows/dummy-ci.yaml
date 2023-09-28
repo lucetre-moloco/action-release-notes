@@ -54,4 +54,6 @@ jobs:
         run: |
           git tag v${{ inputs.tag }}-${{ inputs.microservice }} ${{ inputs.commit-sha }}
           git push --tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
