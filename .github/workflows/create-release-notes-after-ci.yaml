@@ -40,7 +40,9 @@ jobs:
       - name: Set version tag
         id: set-version
         run: |
-          echo "tag=v$(date '+%Y%m%d%H%M%S').R${{ inputs.revision-id }}-${{ inputs.microservice }}" >> $GITHUB_OUTPUT
+          REVISION_ID=${{ inputs.revision-id }}
+          MICROSERVICE=${{ inputs.microservice }}
+          echo "tag=v$(date '+%Y%m%d%H%M%S').R${REVISION_ID:=0}-${MICROSERVICE:=apple}" >> $GITHUB_OUTPUT
 
       - name: Create a tag on the input commit (gh-api)
         if: false
