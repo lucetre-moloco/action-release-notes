@@ -30,6 +30,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    permissions: write-all
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -45,15 +46,14 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ inputs.commit-sha }}
+      # # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # - uses: actions/checkout@v3
+      #   with:
+      #     ref: ${{ inputs.commit-sha }}
         
       - name: Create a tag on the input commit
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const { VERSION_TAG, COMMIT_SHA } = process.env
             github.rest.git.createRef({
