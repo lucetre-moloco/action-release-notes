@@ -47,8 +47,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Create a tag on the input commit (1)
-        if: false
+      - name: Create a tag on the input commit (gh-api)
+        continue-on-error: true
         uses: actions/github-script@v6
         with:
           script: |
@@ -63,10 +63,20 @@ jobs:
           VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
           COMMIT_SHA: ${{ inputs.commit-sha }}
       
-
-      - name: Create a tag on the input commit (2)
+      - name: Create a tag on the input commit (gh-cli)
+        continue-on-error: true
         run: |
           gh release create ${{ env.VERSION_TAG }} --target ${{ env.COMMIT_SHA }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
+          COMMIT_SHA: ${{ inputs.commit-sha }}
+      
+      - name: Create a tag on the input commit (git-cli)
+        continue-on-error: true
+        run: |
+          git tag ${{ env.VERSION_TAG }} ${{ env.COMMIT_SHA }}
+          git push --tag
         env:
           VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
           COMMIT_SHA: ${{ inputs.commit-sha }}
