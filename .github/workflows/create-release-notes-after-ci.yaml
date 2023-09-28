@@ -41,7 +41,7 @@ jobs:
         run: |
           REVISION=${{ inputs.revision }}
           MICROSERVICE=${{ inputs.microservice }}
-          echo "tag=v$(date '+%Y%m%d%H%M%S').R${REVISION:=0}-${MICROSERVICE:=default}" >> $GITHUB_OUTPUT
+          echo "tag=v$(date '+%Y%m%d%H%M').R${REVISION:=0}-${MICROSERVICE:=default}" >> $GITHUB_OUTPUT
 
       - name: Create a tag on the input commit (gh-api)
         if: false
