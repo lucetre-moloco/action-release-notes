@@ -51,6 +51,7 @@ jobs:
           echo test, and deploy your project.
 
       - name: Create a tag on the input commit (gh-api)
+        if: false
         continue-on-error: true
         uses: actions/github-script@v6
         with:
@@ -76,6 +77,7 @@ jobs:
           COMMIT_SHA: ${{ inputs.commit-sha }}
       
       - name: Create a tag on the input commit (git-cli)
+        if: false
         continue-on-error: true
         run: |
           git tag ${{ env.VERSION_TAG }} ${{ env.COMMIT_SHA }}
