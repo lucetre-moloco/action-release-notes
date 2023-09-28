@@ -51,19 +51,34 @@ jobs:
       #   with:
       #     ref: ${{ inputs.commit-sha }}
         
-      - name: Create a tag on the input commit
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { VERSION_TAG, COMMIT_SHA } = process.env
-            github.rest.git.createRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: `refs/tags/${VERSION_TAG}`,
-              sha: COMMIT_SHA
-            })
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
         env:
-          VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
-          COMMIT_SHA: ${{ inputs.commit-sha }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: v${{ inputs.tag }}-${{ inputs.microservice }}
+          release_name: Release v${{ inputs.tag }}-${{ inputs.microservice }}
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
+          draft: false
+          prerelease: false
+
+      # - name: Create a tag on the input commit
+      #   uses: actions/github-script@v6
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     script: |
+      #       const { VERSION_TAG, COMMIT_SHA } = process.env
+      #       github.rest.git.createRef({
+      #         owner: context.repo.owner,
+      #         repo: context.repo.repo,
+      #         ref: `refs/tags/${VERSION_TAG}`,
+      #         sha: COMMIT_SHA
+      #       })
+      #   env:
+      #     VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
+      #     COMMIT_SHA: ${{ inputs.commit-sha }}
       
