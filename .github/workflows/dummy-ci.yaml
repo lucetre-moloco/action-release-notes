@@ -23,7 +23,7 @@ on:
         required: true
         type: string
         description: Commit SHA to checkout
-        default: 07ef390
+        default: 07ef390a69c3341f1f635320903a6d9350a4e80a
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
