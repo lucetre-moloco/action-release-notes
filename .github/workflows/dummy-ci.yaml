@@ -50,10 +50,28 @@ jobs:
         with:
           ref: ${{ inputs.commit-sha }}
         
-      - name: Add a tag on the input commit
-        run: |
-          git tag v${{ inputs.tag }}-${{ inputs.microservice }} ${{ inputs.commit-sha }}
-          git push --tags
+        - name: Create tag
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/<tagname>',
+              sha: context.sha
+            })
+      - name: Create a tag on the input commit
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { VERSION_TAG, COMMIT_SHA } = process.env
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/tags/${VERSION_TAG}`,
+              sha: COMMIT_SHA
+            })
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
+          COMMIT_SHA: ${{ inputs.commit-sha }}
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
