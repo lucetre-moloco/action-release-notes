@@ -14,11 +14,11 @@ on:
         type: string
         description: Name of Microservice
         default: apple
-      revision-id:
+      revision:
         required: true
-        type: string
-        description: Revision ID
-        default: "0"
+        type: number
+        description: Revision
+        default: 0
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -39,9 +39,9 @@ jobs:
       - name: Set version tag
         id: set-version
         run: |
-          REVISION_ID=${{ inputs.revision-id:=0 }}
-          MICROSERVICE=${{ inputs.microservice:=apple }}
-          echo "tag=v$(date '+%Y%m%d%H%M%S').R${REVISION_ID}-${MICROSERVICE}" >> $GITHUB_OUTPUT
+          REVISION=${{ inputs.revision }}
+          MICROSERVICE=${{ inputs.microservice }}
+          echo "tag=v$(date '+%Y%m%d%H%M%S').R${REVISION:=0}-${MICROSERVICE:=default}" >> $GITHUB_OUTPUT
 
       - name: Create a tag on the input commit (gh-api)
         if: false
