@@ -54,6 +54,7 @@ jobs:
       - name: Create a tag on the input commit
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const { VERSION_TAG, COMMIT_SHA } = process.env
             github.rest.git.createRef({
