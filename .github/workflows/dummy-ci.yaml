@@ -47,7 +47,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Create a tag on the input commit
+      - name: Create a tag on the input commit (1)
+        if: false
         uses: actions/github-script@v6
         with:
           script: |
@@ -62,3 +63,10 @@ jobs:
           VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
           COMMIT_SHA: ${{ inputs.commit-sha }}
       
+
+      - name: Create a tag on the input commit (2)
+        run: |
+          gh release create ${{ env.VERSION_TAG }} --target ${{ env.COMMIT_SHA }}
+        env:
+          VERSION_TAG: v${{ inputs.tag }}-${{ inputs.microservice }}
+          COMMIT_SHA: ${{ inputs.commit-sha }}
