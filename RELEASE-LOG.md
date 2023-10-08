@@ -1,5 +1,5 @@
 ### Release Summary
-{{ RELEASE-SUMMAY }}
+{{ RELEASE_SUMMAY }}
 
 ### Commit History
-{{ COMMIT-HISTORY }}
+{{ COMMIT_HISTORY }}
