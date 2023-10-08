@@ -59,6 +59,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           MICROSERVICE: ${{ steps.set-version.outputs.microservice }}
-          PREV_VERSION_TAG: v123.R4
+          PREV_VERSION_TAG: v202310080646
           CURR_VERSION_TAG: ${{ steps.set-version.outputs.tag }}
           COMMIT_SHA: ${{ github.sha }}
