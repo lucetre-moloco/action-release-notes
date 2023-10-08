@@ -41,39 +41,12 @@ jobs:
         run: |
           REVISION=${{ inputs.revision }}
           MICROSERVICE=${{ inputs.microservice }}
-          echo "tag=v$(date '+%Y%m%d%H%M').R${REVISION:=0}-${MICROSERVICE:=default}" >> $GITHUB_OUTPUT
-
-      - name: Create a tag on the input commit (gh-api)
-        if: false
-        continue-on-error: true
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const { VERSION_TAG, COMMIT_SHA } = process.env
-            github.rest.git.createRef({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: `refs/tags/${VERSION_TAG}`,
-              sha: COMMIT_SHA
-            })
-        env:
-          VERSION_TAG: ${{ steps.set-version.outputs.tag }}
-          COMMIT_SHA: ${{ github.sha }}
+          echo "tag=${MICROSERVICE:=default}/v$(date '+%Y%m%d%H%M').R${REVISION:=0}" >> $GITHUB_OUTPUT
       
       - name: Create a tag on the input commit (gh-cli)
         run: |
           gh release create ${{ env.VERSION_TAG }} --target ${{ env.COMMIT_SHA }} --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}
-          VERSION_TAG: ${{ steps.set-version.outputs.tag }}
-          COMMIT_SHA: ${{ github.sha }}
-      
-      - name: Create a tag on the input commit (git-cli)
-        if: false
-        continue-on-error: true
-        run: |
-          git tag ${{ env.VERSION_TAG }} ${{ env.COMMIT_SHA }}
-          git push --tag
-        env:
           VERSION_TAG: ${{ steps.set-version.outputs.tag }}
           COMMIT_SHA: ${{ github.sha }}
