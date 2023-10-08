@@ -45,19 +45,19 @@ jobs:
           COMMIT_HISTORY: |
             - [APPLE-21] Initial commit for apple (#1) @elzino
             - [APPLE-123] New change on apple microservice (#2) @lucetre
-            - [APPLE-939] Dummy PR (#3) @mys
+            - [APPLE-939] Dummy PR (#3) @mayshin10
     
       - name: Create a tag on the input commit (gh-cli)
         run: |
+          PREV_VERSION_TAG=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)
           gh release create "${{ env.MICROSERVICE }}/${{ env.CURR_VERSION_TAG }}" \
             --title "${{ env.MICROSERVICE }}: ${{ env.CURR_VERSION_TAG }}" \
             --target ${{ env.COMMIT_SHA }} \
-            --notes-start-tag "${{ env.MICROSERVICE }}/${{ env.PREV_VERSION_TAG }}" \
+            --notes-start-tag "${{ env.MICROSERVICE }}/$PREV_VERSION_TAG" \
             --generate-notes \
             --notes-file RELEASE-LOG.md
         env:
           GH_TOKEN: ${{ github.token }}
           MICROSERVICE: ${{ steps.set-version.outputs.microservice }}
-          PREV_VERSION_TAG: v202310080646
           CURR_VERSION_TAG: ${{ steps.set-version.outputs.tag }}
           COMMIT_SHA: ${{ github.sha }}
