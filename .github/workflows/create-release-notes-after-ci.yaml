@@ -49,7 +49,7 @@ jobs:
     
       - name: Create a tag on the input commit (gh-cli)
         run: |
-          gh release list | grep "apple/*"
+          gh release list | grep "${{ env.MICROSERVICE }}/*"
           PREV_VERSION_TAG=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)
           gh release create "${{ env.MICROSERVICE }}/${{ env.CURR_VERSION_TAG }}" \
             --title "${{ env.MICROSERVICE }}: ${{ env.CURR_VERSION_TAG }}" \
