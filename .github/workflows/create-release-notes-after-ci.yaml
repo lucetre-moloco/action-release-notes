@@ -54,7 +54,7 @@ jobs:
           gh release create "${{ env.MICROSERVICE }}/${{ env.CURR_VERSION_TAG }}" \
             --title "${{ env.MICROSERVICE }}: ${{ env.CURR_VERSION_TAG }}" \
             --target ${{ env.COMMIT_SHA }} \
-            --notes-start-tag "${{ env.MICROSERVICE }}/${PREV_VERSION_TAG}" \
+            --notes-start-tag "${PREV_VERSION_TAG}" \
             --generate-notes \
             --notes-file RELEASE-LOG.md
         env:
