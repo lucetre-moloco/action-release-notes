@@ -41,7 +41,9 @@ jobs:
           output_file: RELEASE-LOG.md
         env:
           RELEASE_SUMMARY: 'This contains a breaking change on apple.'
-          COMMIT_HISTORY: '- [APPLE-123] New change on apple microservice (#2) @lucetre'
+          COMMIT_HISTORY: |
+            - [APPLE-21] Initial commit for apple (#1) @elzino
+            - [APPLE-123] New change on apple microservice (#2) @lucetre
     
       - name: Create a tag on the input commit (gh-cli)
         run: |
