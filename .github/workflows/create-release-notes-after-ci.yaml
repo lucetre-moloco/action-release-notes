@@ -32,23 +32,26 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
       - name: Set version tag
         id: set-version
         run: |
-          REVISION=${{ inputs.revision }}
           MICROSERVICE=${{ inputs.microservice }}
-          echo "microservice=${MICROSERVICE:=default}" >> $GITHUB_OUTPUT
-          echo "tag=v$(date '+%Y%m%d%H%M').R${REVISION:=0}" >> $GITHUB_OUTPUT
-      
+          echo "microservice=${MICROSERVICE:=apple}" >> $GITHUB_OUTPUT
+          echo "tag=v$(date '+%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+
+      - name: Setup nginx
+        uses: cuchi/jinja2-action@v1.2.0
+        with:
+          template: RELEASE-LOG.md
+          output_file: RELEASE-LOG.md
+        env:
+          RELEASE-SUMMARY: 'This contains a breaking change on apple.'
+          COMMIT-HISTORY: '- [APPLE-123] New change on apple microservice (#2) @lucetre'
+    
       - name: Create a tag on the input commit (gh-cli)
         run: |
           gh release create "${{ env.MICROSERVICE }}/${{ env.CURR_VERSION_TAG }}" \
             --title "${{ env.MICROSERVICE }}: ${{ env.CURR_VERSION_TAG }}" \
-            --repo lucetre/action-release-notes \
             --target ${{ env.COMMIT_SHA }} \
             --notes-start-tag "${{ env.MICROSERVICE }}/${{ env.PREV_VERSION_TAG }}" \
             --generate-notes \
