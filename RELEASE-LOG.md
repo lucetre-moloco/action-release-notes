@@ -1,5 +1,5 @@
 ### Release Summary
-{{ RELEASE_SUMMAY }}
+{{ env.get('RELEASE_SUMMAY') }}
 
 ### Commit History
-{{ COMMIT_HISTORY }}
+{{ env.get('COMMIT_HISTORY') }}
