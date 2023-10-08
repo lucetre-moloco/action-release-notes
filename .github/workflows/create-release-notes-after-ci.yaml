@@ -41,12 +41,21 @@ jobs:
         run: |
           REVISION=${{ inputs.revision }}
           MICROSERVICE=${{ inputs.microservice }}
-          echo "tag=${MICROSERVICE:=default}/v$(date '+%Y%m%d%H%M').R${REVISION:=0}" >> $GITHUB_OUTPUT
+          echo "microservice=${MICROSERVICE:=default}" >> $GITHUB_OUTPUT
+          echo "tag=v$(date '+%Y%m%d%H%M').R${REVISION:=0}" >> $GITHUB_OUTPUT
       
       - name: Create a tag on the input commit (gh-cli)
         run: |
-          gh release create ${{ env.VERSION_TAG }} --target ${{ env.COMMIT_SHA }} --generate-notes
+          gh release create "${{ env.MICROSERVICE }}/${{ env.CURR_VERSION_TAG }}" \
+            --title "${{ env.MICROSERVICE }}: ${{ env.CURR_VERSION_TAG }}" \
+            --repo lucetre/action-release-notes \
+            --target ${{ env.COMMIT_SHA }} \
+            --notes-start-tag "${{ env.MICROSERVICE }}/${{ env.PREV_VERSION_TAG }}" \
+            --generate-notes \
+            --notes-file RELEASE-LOG.md
         env:
           GH_TOKEN: ${{ github.token }}
-          VERSION_TAG: ${{ steps.set-version.outputs.tag }}
+          MICROSERVICE: ${{ steps.set-version.outputs.microservice }}
+          PREV_VERSION_TAG: v123.R4
+          CURR_VERSION_TAG: ${{ steps.set-version.outputs.tag }}
           COMMIT_SHA: ${{ github.sha }}
