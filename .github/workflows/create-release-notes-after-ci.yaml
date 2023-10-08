@@ -56,7 +56,6 @@ jobs:
             --target ${{ env.COMMIT_SHA }} \
             --notes-start-tag "${PREV_VERSION_TAG}" \
             --generate-notes \
-            --discussion-category ${{ env.MICROSERVICE }} \
             --notes-file RELEASE-LOG.md
         env:
           GH_TOKEN: ${{ github.token }}
