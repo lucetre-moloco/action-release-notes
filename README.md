@@ -6,3 +6,4 @@
 - (duck) lucetre, musicetre, snucvpip
 - () snucvpip
 - (duck, apple) lucetre, musicetre
+- (cat) musicetre, lucetre
