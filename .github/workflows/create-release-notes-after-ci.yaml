@@ -62,8 +62,8 @@ jobs:
             /repos/${GITHUB_REPOSITORY}/compare/${{ env.BASEHEAD }})
 
           # Print the Markdown table header
-          echo "| Author Login | Commit Date | Commit Message |" >> ${{ env.RELEASE_NOTES_FILE }}
-          echo "|--------------|-------------|----------------|" >> ${{ env.RELEASE_NOTES_FILE }}
+          echo "| Author | Date | Commit Message |" >> ${{ env.RELEASE_NOTES_FILE }}
+          echo "|--------|------|----------------|" >> ${{ env.RELEASE_NOTES_FILE }}
 
           # Use jq to extract the commits as raw JSON lines
           jq -c '.commits[]' <<< "$json_data" | while read -r commit; do
