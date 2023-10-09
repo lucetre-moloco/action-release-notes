@@ -52,8 +52,9 @@ jobs:
           template: ${{ env.RELEASE_NOTES_FILE }}
           output_file: ${{ env.RELEASE_NOTES_FILE }}
         env:
-          RELEASE_SUMMARY: |
-            Please fill out the summary notes for this release **`${{ steps.set-version.outputs.curr-release-tag }}`**.
+          PREV_RELEASE_TAG: ${{ steps.set-version.outputs.prev-release-tag }}
+          CURR_RELEASE_TAG: ${{ steps.set-version.outputs.curr-release-tag }}
+          CURR_RELEASE_TITLE: ${{ steps.set-version.outputs.curr-release-title }}
 
       - name: Get commit history
         run: |
@@ -76,7 +77,6 @@ jobs:
               # Print the values as a Markdown table row
               echo "| @$author_login | $commit_date | $commit_message |" >> ${{ env.RELEASE_NOTES_FILE }}
           done
-          cat ${{ env.RELEASE_NOTES_FILE }}
         env:
           GH_TOKEN: ${{ github.token }}
           BASEHEAD: ${{ steps.set-version.outputs.prev-release-tag }}...${{ github.sha }}
