@@ -32,7 +32,13 @@ jobs:
         run: |
           MICROSERVICE=${{ inputs.microservice }}
           echo "microservice=${MICROSERVICE:=apple}" >> $GITHUB_OUTPUT
-          echo "tag=v$(date '+%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+          echo "curr-version-tag=v$(date '+%Y%m%d%H%M')" >> $GITHUB_OUTPUT
+
+          gh release list | grep "${{ env.MICROSERVICE }}/*"
+          PREV_VERSION_TAG=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)
+          echo "prev-version-tag=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Write a release log
         uses: cuchi/jinja2-action@v1.2.0
@@ -47,18 +53,21 @@ jobs:
             - [APPLE-123] New change on apple microservice (#2) @lucetre
             - [APPLE-939] Dummy PR (#3) @mayshin10
     
+      - name: Get commit history
+        run: |
+          git log --pretty=format:"%h; %aN; %an; %aE; %ae; %aL; %al; %cN; %cn; %cE; %ce; %cL; %cl; %s" apple/v202310080644...apple/v202310080721
+
       - name: Create a tag on the input commit (gh-cli)
         run: |
-          gh release list | grep "${{ env.MICROSERVICE }}/*"
-          PREV_VERSION_TAG=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)
           gh release create "${{ env.MICROSERVICE }}/${{ env.CURR_VERSION_TAG }}" \
             --title "${{ env.MICROSERVICE }}: ${{ env.CURR_VERSION_TAG }}" \
             --target ${{ env.COMMIT_SHA }} \
-            --notes-start-tag "${PREV_VERSION_TAG}" \
+            --notes-start-tag "${{ env.PREV_VERSION_TAG }}" \
             --generate-notes \
-            --notes-file RELEASE-LOG.md
+            --notes-file RELEASELOG.md
         env:
           GH_TOKEN: ${{ github.token }}
           MICROSERVICE: ${{ steps.set-version.outputs.microservice }}
-          CURR_VERSION_TAG: ${{ steps.set-version.outputs.tag }}
+          CURR_VERSION_TAG: ${{ steps.set-version.outputs.curr-version-tag }}
+          PREV_VERSION_TAG: ${{ steps.set-version.outputs.prev-version-tag }}
           COMMIT_SHA: ${{ github.sha }}
