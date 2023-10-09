@@ -52,16 +52,16 @@ jobs:
           template: ${{ env.RELEASE_NOTES_FILE }}
           output_file: ${{ env.RELEASE_NOTES_FILE }}
         env:
+          # GITHUB_REPOSITORY: ${GITHUB_REPOSITORY}
           PREV_RELEASE_TAG: ${{ steps.set-version.outputs.prev-release-tag }}
           CURR_RELEASE_TAG: ${{ steps.set-version.outputs.curr-release-tag }}
-          CURR_RELEASE_TITLE: ${{ steps.set-version.outputs.curr-release-title }}
 
       - name: Get commit history
         run: |
           json_data=$(gh api \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            /repos/lucetre/action-release-notes/compare/${{ env.BASEHEAD }})
+            /repos/${GITHUB_REPOSITORY}/compare/${{ env.BASEHEAD }})
 
           # Print the Markdown table header
           echo "| Author Login | Commit Date | Commit Message |" >> ${{ env.RELEASE_NOTES_FILE }}
