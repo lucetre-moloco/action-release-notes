@@ -44,14 +44,14 @@ jobs:
       - name: Write a release log
         uses: cuchi/jinja2-action@v1.2.0
         with:
-          template: RELEASE-LOG.md
-          output_file: RELEASE-LOG.md
+          template: RELEASELOG.md
+          output_file: RELEASELOG.md
         env:
           RELEASE_SUMMARY: |
             This contains a breaking change on apple.
           COMMIT_HISTORY: |
             - [APPLE-21] Initial commit for apple (#1) @elzino
-            - [APPLE-123] New change on apple microservice (#2) @lucetre
+            - [APPLE-123] New change on apple microservice (#2) @lucetre @sangjun.son@moloco.com
             - [APPLE-939] Dummy PR (#3) @mayshin10
     
       - name: Get commit history
