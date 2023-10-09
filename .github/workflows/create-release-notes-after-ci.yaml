@@ -38,10 +38,10 @@ jobs:
           echo "curr-release-title=$MICROSERVICE: $BUILD_VERSION" >> $GITHUB_OUTPUT
 
           PREV_RELEASE_TAG=$(gh release list | grep -m1 "$MICROSERVICE/*" | cut -f3)
-          if [ -z "$PREV_VERSION_TAG" ]; then
-            PREV_VERSION_TAG=$(gh release list | head -n 1 | cut -f3)
+          if [ -z "$PREV_RELEASE_TAG" ]; then
+            PREV_RELEASE_TAG=$(gh release list | head -n 1 | cut -f3)
           fi
-          echo "prev-release-tag=$PREV_VERSION_TAG" >> $GITHUB_OUTPUT
+          echo "prev-release-tag=$PREV_RELEASE_TAG" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ github.token }}
           MICROSERVICE: ${{ inputs.microservice }}
