@@ -26,6 +26,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set version tag
         id: set-version
@@ -33,9 +35,8 @@ jobs:
           MICROSERVICE=${MICROSERVICE:=apple}
           BUILD_VERSION=v$(date '+%Y%m%d%H%M')
           gh release list | grep "$MICROSERVICE/*"
-          PREV_RELEASE_TAG=$(gh release list | grep -m1 "$MICROSERVICE/*" | cut -f3)
           echo "microservice=$MICROSERVICE" >> $GITHUB_OUTPUT
-          echo "prev-release-tag=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)" >> $GITHUB_OUTPUT
+          echo "prev-release-tag=$(gh release list | grep -m1 "$MICROSERVICE/*" | cut -f3)" >> $GITHUB_OUTPUT
           echo "curr-release-tag=$MICROSERVICE/$BUILD_VERSION" >> $GITHUB_OUTPUT
           echo "curr-release-title=$MICROSERVICE: $BUILD_VERSION" >> $GITHUB_OUTPUT
         env:
@@ -49,7 +50,7 @@ jobs:
           output_file: RELEASELOG.md
         env:
           RELEASE_SUMMARY: |
-            This contains a breaking change on apple.
+            Please fill out the summary notes for this release `${{ steps.set-version.outputs.curr-release-tag }}`.
           COMMIT_HISTORY: |
             - [APPLE-21] Initial commit for apple (#1) @elzino
             - [APPLE-123] New change on apple microservice (#2) @lucetre @sangjun.son@moloco.com
@@ -63,7 +64,7 @@ jobs:
           PREV_RELEASE_TAG: ${{ steps.set-version.outputs.prev-release-tag }}
           CURR_RELEASE_TAG: ${{ steps.set-version.outputs.curr-release-tag }}
 
-      - name: Create a tag on the input commit (gh-cli)
+      - name: Publish a release note
         run: |
           gh release create "${{ env.CURR_RELEASE_TAG }}" \
             --title "${{ env.CURR_RELEASE_TITLE }}" \
