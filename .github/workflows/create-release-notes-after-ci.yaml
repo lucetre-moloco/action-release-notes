@@ -64,6 +64,7 @@ jobs:
             -H "X-GitHub-Api-Version: 2022-11-28" \
             /repos/lucetre/action-release-notes/compare/${{ env.BASEHEAD }} | jq .
         env:
+          GH_TOKEN: ${{ github.token }}
           BASEHEAD: ${{ steps.set-version.outputs.prev-release-tag }}..${{ github.sha }}
 
       - name: Publish a release note
