@@ -70,7 +70,7 @@ jobs:
               # Extract the author's login, commit date, and commit message
               author_login=$(echo "$commit" | jq -r '.author.login')
               commit_date=$(echo "$commit" | jq -r '.commit.author.date')
-              commit_message=$(echo "$commit" | jq -r '.commit.message' | tr -d '\n')
+              commit_message=$(echo "$commit" | jq -r '.commit.message' | head -n 1)
               
               # Print the values as a Markdown table row
               echo "| @$author_login | $commit_date | $commit_message |" >> ${{ env.RELEASE_NOTES_FILE }}
