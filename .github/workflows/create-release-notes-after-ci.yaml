@@ -30,16 +30,17 @@ jobs:
       - name: Set version tag
         id: set-version
         run: |
-          gh release list | grep "${{ env.MICROSERVICE }}/*"
-          PREV_RELEASE_TAG=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)
-          MICROSERVICE=${{ inputs.microservice }}
+          MICROSERVICE=${MICROSERVICE:=apple}
           BUILD_VERSION=v$(date '+%Y%m%d%H%M')
-          echo "microservice=${MICROSERVICE:=apple}" >> $GITHUB_OUTPUT
+          gh release list | grep "$MICROSERVICE/*"
+          PREV_RELEASE_TAG=$(gh release list | grep -m1 "$MICROSERVICE/*" | cut -f3)
+          echo "microservice=$MICROSERVICE" >> $GITHUB_OUTPUT
           echo "prev-release-tag=$(gh release list | grep -m1 "${{ env.MICROSERVICE }}/*" | cut -f3)" >> $GITHUB_OUTPUT
-          echo "curr-release-tag=${MICROSERVICE:=apple}/$BUILD_VERSION" >> $GITHUB_OUTPUT
-          echo "curr-release-title=${MICROSERVICE:=apple}: $BUILD_VERSION" >> $GITHUB_OUTPUT
+          echo "curr-release-tag=$MICROSERVICE/$BUILD_VERSION" >> $GITHUB_OUTPUT
+          echo "curr-release-title=$MICROSERVICE: $BUILD_VERSION" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ github.token }}
+          MICROSERVICE: ${{ inputs.microservice }}
 
       - name: Write a release log
         uses: cuchi/jinja2-action@v1.2.0
