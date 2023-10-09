@@ -78,7 +78,7 @@ jobs:
               commit_message=$(echo "$commit" | jq -r '.commit.message')
               
               # Print the values as a Markdown table row
-              echo "| $author_login | $commit_date | $commit_message |" >> ${{ env.RELEASE_NOTES_FILE }}
+              echo "| @$author_login | $commit_date | $commit_message |" >> ${{ env.RELEASE_NOTES_FILE }}
           done
           cat ${{ env.RELEASE_NOTES_FILE }}
         env:
