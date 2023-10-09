@@ -1,4 +1,4 @@
-# Release Summary
+## Release Summary
 To contributors of this release, please provide the summary notes for the current release.
 
 ## Commit History
