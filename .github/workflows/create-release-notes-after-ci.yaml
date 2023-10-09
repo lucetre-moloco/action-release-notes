@@ -5,7 +5,7 @@ name: Create Release Notes after CI
 # Controls when the workflow will run
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
@@ -55,14 +55,30 @@ jobs:
             - [APPLE-21] Initial commit for apple (#1) @elzino
             - [APPLE-123] New change on apple microservice (#2) @lucetre @sangjun.son@moloco.com
             - [APPLE-939] Dummy PR (#3) @mayshin10
-    
+
       - name: Get commit history
         run: |
-          git log --pretty=format:"%h; %aN; %an; %aE; %ae; %aL; %al; %cN; %cn; %cE; %ce; %cL; %cl; %s" ${{ env.BASEHEAD }}
-          gh api \
+          json_data=$(gh api \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            /repos/lucetre/action-release-notes/compare/${{ env.BASEHEAD }} | jq .
+            /repos/lucetre/action-release-notes/compare/${{ env.BASEHEAD }})
+
+          # Print the Markdown table header
+          echo "| Author Login | Commit Date | Commit Message |" > commit-history.txt
+          echo "|--------------|-------------|----------------|" >> commit-history.txt
+
+          # Use jq to extract the commits as raw JSON lines
+          jq -c '.commits[]' <<< "$json_data" | while read -r commit; do
+              # Extract the author's login, commit date, and commit message
+              author_login=$(echo "$commit" | jq -r '.author.login')
+              commit_date=$(echo "$commit" | jq -r '.commit.author.date')
+              commit_message=$(echo "$commit" | jq -r '.commit.message')
+              
+              # Print the values as a Markdown table row
+              echo "| $author_login | $commit_date | $commit_message |" >> commit-history.txt
+          done
+
+          cat commit-history.txt
         env:
           GH_TOKEN: ${{ github.token }}
           BASEHEAD: ${{ steps.set-version.outputs.prev-release-tag }}...${{ github.sha }}
