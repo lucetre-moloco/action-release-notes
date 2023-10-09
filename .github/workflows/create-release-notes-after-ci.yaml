@@ -53,11 +53,7 @@ jobs:
           output_file: ${{ env.RELEASE_NOTES_FILE }}
         env:
           RELEASE_SUMMARY: |
-            Please fill out the summary notes for this release `${{ steps.set-version.outputs.curr-release-tag }}`.
-          COMMIT_HISTORY: |
-            - [APPLE-21] Initial commit for apple (#1) @elzino
-            - [APPLE-123] New change on apple microservice (#2) @lucetre @sangjun.son@moloco.com
-            - [APPLE-939] Dummy PR (#3) @mayshin10
+            Please fill out the summary notes for this release **`${{ steps.set-version.outputs.curr-release-tag }}`**.
 
       - name: Get commit history
         run: |
