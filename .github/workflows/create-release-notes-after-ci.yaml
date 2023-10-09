@@ -58,10 +58,13 @@ jobs:
     
       - name: Get commit history
         run: |
-          git log --pretty=format:"%h; %aN; %an; %aE; %ae; %aL; %al; %cN; %cn; %cE; %ce; %cL; %cl; %s" ${{ env.PREV_RELEASE_TAG }}..${{ env.CURR_RELEASE_SHA }}
+          git log --pretty=format:"%h; %aN; %an; %aE; %ae; %aL; %al; %cN; %cn; %cE; %ce; %cL; %cl; %s" ${{ env.BASEHEAD }}
+          gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            /repos/lucetre/action-release-notes/compare/${{ env.BASEHEAD }} | jq .
         env:
-          PREV_RELEASE_TAG: ${{ steps.set-version.outputs.prev-release-tag }}
-          CURR_RELEASE_SHA: ${{ github.sha }}
+          BASEHEAD: ${{ steps.set-version.outputs.prev-release-tag }}..${{ github.sha }}
 
       - name: Publish a release note
         run: |
