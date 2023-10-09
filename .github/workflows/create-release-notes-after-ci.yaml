@@ -16,7 +16,7 @@ on:
         default: apple
 
 env:
-  RELEASE_NOTE_FILE: RELEASELOG.md
+  RELEASE_NOTES_FILE: RELEASELOG.md
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -49,8 +49,8 @@ jobs:
       - name: Write a release log
         uses: cuchi/jinja2-action@v1.2.0
         with:
-          template: ${{ env.RELEASE_NOTE_FILE }}
-          output_file: ${{ env.RELEASE_NOTE_FILE }}
+          template: ${{ env.RELEASE_NOTES_FILE }}
+          output_file: ${{ env.RELEASE_NOTES_FILE }}
         env:
           RELEASE_SUMMARY: |
             Please fill out the summary notes for this release `${{ steps.set-version.outputs.curr-release-tag }}`.
@@ -67,8 +67,8 @@ jobs:
             /repos/lucetre/action-release-notes/compare/${{ env.BASEHEAD }})
 
           # Print the Markdown table header
-          echo "| Author Login | Commit Date | Commit Message |" >> ${{ env.RELEASE_NOTE_FILE }}
-          echo "|--------------|-------------|----------------|" >> ${{ env.RELEASE_NOTE_FILE }}
+          echo "| Author Login | Commit Date | Commit Message |" >> ${{ env.RELEASE_NOTES_FILE }}
+          echo "|--------------|-------------|----------------|" >> ${{ env.RELEASE_NOTES_FILE }}
 
           # Use jq to extract the commits as raw JSON lines
           jq -c '.commits[]' <<< "$json_data" | while read -r commit; do
@@ -78,9 +78,9 @@ jobs:
               commit_message=$(echo "$commit" | jq -r '.commit.message')
               
               # Print the values as a Markdown table row
-              echo "| $author_login | $commit_date | $commit_message |" >> ${{ env.RELEASE_NOTE_FILE }}
+              echo "| $author_login | $commit_date | $commit_message |" >> ${{ env.RELEASE_NOTES_FILE }}
           done
-          cat ${{ env.RELEASE_NOTE_FILE }}
+          cat ${{ env.RELEASE_NOTES_FILE }}
         env:
           GH_TOKEN: ${{ github.token }}
           BASEHEAD: ${{ steps.set-version.outputs.prev-release-tag }}...${{ github.sha }}
@@ -92,7 +92,7 @@ jobs:
             --target ${{ env.COMMIT_SHA }} \
             --notes-start-tag "${{ env.PREV_RELEASE_TAG }}" \
             --generate-notes \
-            --notes-file RELEASELOG.md
+            --notes-file ${{ env.RELEASE_NOTES_FILE }}
         env:
           GH_TOKEN: ${{ github.token }}
           MICROSERVICE: ${{ steps.set-version.outputs.microservice }}
