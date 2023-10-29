@@ -1,0 +1,1399 @@
+{
+  "url": "https://api.github.com/repos/lucetre/action-release-notes/compare/banana/v202310090235...banana/v202310090321",
+  "html_url": "https://github.com/lucetre/action-release-notes/compare/banana/v202310090235...banana/v202310090321",
+  "permalink_url": "https://github.com/lucetre/action-release-notes/compare/lucetre:886cbfe...lucetre:53b62ba",
+  "diff_url": "https://github.com/lucetre/action-release-notes/compare/banana/v202310090235...banana/v202310090321.diff",
+  "patch_url": "https://github.com/lucetre/action-release-notes/compare/banana/v202310090235...banana/v202310090321.patch",
+  "base_commit": {
+    "sha": "886cbfe4890da33197ba0fe006980396447620b0",
+    "node_id": "C_kwDOKZO9ktoAKDg4NmNiZmU0ODkwZGEzMzE5N2JhMGZlMDA2OTgwMzk2NDQ3NjIwYjA",
+    "commit": {
+      "author": {
+        "name": "Sangjun (Aslan) Son",
+        "email": "lucetre@naver.com",
+        "date": "2023-10-09T02:34:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-10-09T02:34:57Z"
+      },
+      "message": "Test and validate `apple`, `banana`, `cat` microservices (#7)\n\n* Update README.md\r\n\r\n* Update RELEASELOG.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>",
+      "tree": {
+        "sha": "68fee3bf346b94f621ad1e5db836db45d35b2ed0",
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/68fee3bf346b94f621ad1e5db836db45d35b2ed0"
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/886cbfe4890da33197ba0fe006980396447620b0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2bRCRBK7hj4Ov3rIwAAuJQIAD332dv4Z2+iwPowdYc+e7DY\nxwgyRrnu+RcKp2sGD8gfWvaPwWlrYeAgbeqB2jMvZ9Fr0DDGPfC8E1149TulRlLM\nE9Xr35j6x8i0gVSvy3jrpF+ujpKMRVjLLMG/iwbAEy+9926rCMDUAj4Hbqdu+xGD\njYRrJLAlUkfAtjD3OsCjhkRb9Dv+boyfyXKSQEJNK5jSD/6HcrBsJWJfmc6KeWTI\ne1BNPSWFTsBwZnLBxcZokPhs1mlI/STHwpnldu5TaCrRlWwxrDpH76BbZ19IB6XS\n1G11e2p5Hg/JyTHaHDe2w8nDMevZtAkEbtW6TgFPaoxp3CzNHYeONv4biOLlrdo=\n=bIWZ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 68fee3bf346b94f621ad1e5db836db45d35b2ed0\nparent 4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696818897 +0700\ncommitter GitHub <noreply@github.com> 1696818897 +0000\n\nTest and validate `apple`, `banana`, `cat` microservices (#7)\n\n* Update README.md\r\n\r\n* Update RELEASELOG.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/886cbfe4890da33197ba0fe006980396447620b0",
+    "html_url": "https://github.com/lucetre/action-release-notes/commit/886cbfe4890da33197ba0fe006980396447620b0",
+    "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/886cbfe4890da33197ba0fe006980396447620b0/comments",
+    "author": {
+      "login": "lucetre",
+      "id": 26702243,
+      "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lucetre",
+      "html_url": "https://github.com/lucetre",
+      "followers_url": "https://api.github.com/users/lucetre/followers",
+      "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+      "organizations_url": "https://api.github.com/users/lucetre/orgs",
+      "repos_url": "https://api.github.com/users/lucetre/repos",
+      "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lucetre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d",
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d",
+        "html_url": "https://github.com/lucetre/action-release-notes/commit/4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "886cbfe4890da33197ba0fe006980396447620b0",
+    "node_id": "C_kwDOKZO9ktoAKDg4NmNiZmU0ODkwZGEzMzE5N2JhMGZlMDA2OTgwMzk2NDQ3NjIwYjA",
+    "commit": {
+      "author": {
+        "name": "Sangjun (Aslan) Son",
+        "email": "lucetre@naver.com",
+        "date": "2023-10-09T02:34:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-10-09T02:34:57Z"
+      },
+      "message": "Test and validate `apple`, `banana`, `cat` microservices (#7)\n\n* Update README.md\r\n\r\n* Update RELEASELOG.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>",
+      "tree": {
+        "sha": "68fee3bf346b94f621ad1e5db836db45d35b2ed0",
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/68fee3bf346b94f621ad1e5db836db45d35b2ed0"
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/886cbfe4890da33197ba0fe006980396447620b0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2bRCRBK7hj4Ov3rIwAAuJQIAD332dv4Z2+iwPowdYc+e7DY\nxwgyRrnu+RcKp2sGD8gfWvaPwWlrYeAgbeqB2jMvZ9Fr0DDGPfC8E1149TulRlLM\nE9Xr35j6x8i0gVSvy3jrpF+ujpKMRVjLLMG/iwbAEy+9926rCMDUAj4Hbqdu+xGD\njYRrJLAlUkfAtjD3OsCjhkRb9Dv+boyfyXKSQEJNK5jSD/6HcrBsJWJfmc6KeWTI\ne1BNPSWFTsBwZnLBxcZokPhs1mlI/STHwpnldu5TaCrRlWwxrDpH76BbZ19IB6XS\n1G11e2p5Hg/JyTHaHDe2w8nDMevZtAkEbtW6TgFPaoxp3CzNHYeONv4biOLlrdo=\n=bIWZ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 68fee3bf346b94f621ad1e5db836db45d35b2ed0\nparent 4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696818897 +0700\ncommitter GitHub <noreply@github.com> 1696818897 +0000\n\nTest and validate `apple`, `banana`, `cat` microservices (#7)\n\n* Update README.md\r\n\r\n* Update RELEASELOG.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/886cbfe4890da33197ba0fe006980396447620b0",
+    "html_url": "https://github.com/lucetre/action-release-notes/commit/886cbfe4890da33197ba0fe006980396447620b0",
+    "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/886cbfe4890da33197ba0fe006980396447620b0/comments",
+    "author": {
+      "login": "lucetre",
+      "id": 26702243,
+      "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lucetre",
+      "html_url": "https://github.com/lucetre",
+      "followers_url": "https://api.github.com/users/lucetre/followers",
+      "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+      "organizations_url": "https://api.github.com/users/lucetre/orgs",
+      "repos_url": "https://api.github.com/users/lucetre/repos",
+      "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lucetre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d",
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d",
+        "html_url": "https://github.com/lucetre/action-release-notes/commit/4b5d68f3ccbe4d268055f9de23f41b0f39c88c2d"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 15,
+  "behind_by": 0,
+  "total_commits": 15,
+  "commits": [
+    {
+      "sha": "33b53dddf0f18417a2efe76d41fd2f9fd1b02776",
+      "node_id": "C_kwDOKZO9ktoAKDMzYjUzZGRkZjBmMTg0MTdhMmVmZTc2ZDQxZmQyZjlmZDFiMDI3NzY",
+      "commit": {
+        "author": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T02:38:46Z"
+        },
+        "committer": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T02:38:46Z"
+        },
+        "message": "Remove newline",
+        "tree": {
+          "sha": "5aaa8ec23672bb31c567954034b740102526b913",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/5aaa8ec23672bb31c567954034b740102526b913"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/33b53dddf0f18417a2efe76d41fd2f9fd1b02776",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/33b53dddf0f18417a2efe76d41fd2f9fd1b02776",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/33b53dddf0f18417a2efe76d41fd2f9fd1b02776",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/33b53dddf0f18417a2efe76d41fd2f9fd1b02776/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "886cbfe4890da33197ba0fe006980396447620b0",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/886cbfe4890da33197ba0fe006980396447620b0",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/886cbfe4890da33197ba0fe006980396447620b0"
+        }
+      ]
+    },
+    {
+      "sha": "3160980571cea1d2d6287794ba59333c4a3b3fbc",
+      "node_id": "C_kwDOKZO9ktoAKDMxNjA5ODA1NzFjZWExZDJkNjI4Nzc5NGJhNTkzMzNjNGEzYjNmYmM",
+      "commit": {
+        "author": {
+          "name": "snucv-pip",
+          "email": "116967143+snucv-pip@users.noreply.github.com",
+          "date": "2023-10-09T02:40:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:40:37Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "4e9313c8d3b47053dc310cb70d92950cef1efa96",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/4e9313c8d3b47053dc310cb70d92950cef1efa96"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/3160980571cea1d2d6287794ba59333c4a3b3fbc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2glCRBK7hj4Ov3rIwAAnr4IAAyQkC8Y9js6PVU3gju581z5\nZ8dSNI/7qDrKA4022UJtMNwNShZmhjL2eEjoDtG6WC6j+KfWZbQeeilk3+H2AxAq\n0atoQFttFt2EGxwGJCzAFaSNH9Hl/l4FdATwdVtVsOvGcxMESo1Mvpo2DRNk2ovw\nIiFNwSwGHwn/P6Q3/HNXIfzCipILboNRHFt66fnF3d93s9/fg4uB6sDAGigvFo/m\nFl71ZrW36bCeKp/5cyuBBytRAHBRlZ+YDyaIaR78mSjEQbmxeh14LQni4tzYiFdB\nIxofhz2NDXTH8mqdup/NFjk76t9YtGpqbr1aFDIQFPyzNdKzHnmV12wdlnWJwgs=\n=gSjC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4e9313c8d3b47053dc310cb70d92950cef1efa96\nparent 33b53dddf0f18417a2efe76d41fd2f9fd1b02776\nauthor snucv-pip <116967143+snucv-pip@users.noreply.github.com> 1696819237 +0000\ncommitter GitHub <noreply@github.com> 1696819237 +0000\n\nUpdate README.md"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/3160980571cea1d2d6287794ba59333c4a3b3fbc",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/3160980571cea1d2d6287794ba59333c4a3b3fbc",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/3160980571cea1d2d6287794ba59333c4a3b3fbc/comments",
+      "author": {
+        "login": "snucv-pip",
+        "id": 116967143,
+        "node_id": "U_kgDOBvjG5w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116967143?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/snucv-pip",
+        "html_url": "https://github.com/snucv-pip",
+        "followers_url": "https://api.github.com/users/snucv-pip/followers",
+        "following_url": "https://api.github.com/users/snucv-pip/following{/other_user}",
+        "gists_url": "https://api.github.com/users/snucv-pip/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/snucv-pip/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/snucv-pip/subscriptions",
+        "organizations_url": "https://api.github.com/users/snucv-pip/orgs",
+        "repos_url": "https://api.github.com/users/snucv-pip/repos",
+        "events_url": "https://api.github.com/users/snucv-pip/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/snucv-pip/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "33b53dddf0f18417a2efe76d41fd2f9fd1b02776",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/33b53dddf0f18417a2efe76d41fd2f9fd1b02776",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/33b53dddf0f18417a2efe76d41fd2f9fd1b02776"
+        }
+      ]
+    },
+    {
+      "sha": "07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4",
+      "node_id": "C_kwDOKZO9ktoAKDA3YTdjYjkxYWUyOWVjZmU2Y2Y5YjUzMjRjZTY1YWFlYjY4NWMxZDQ",
+      "commit": {
+        "author": {
+          "name": "Sangjun (Aslan) Son",
+          "email": "lucetre@naver.com",
+          "date": "2023-10-09T02:41:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:41:11Z"
+        },
+        "message": "Update README.md (#8)\n\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>\r\nCo-authored-by: snucv-pip <116967143+snucv-pip@users.noreply.github.com>",
+        "tree": {
+          "sha": "4219e13166e86e33474dc24e3c4ef337699ab13a",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/4219e13166e86e33474dc24e3c4ef337699ab13a"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2hHCRBK7hj4Ov3rIwAAPcgIAC/F3bmFcrXu5jGf9l0n9SCl\nDo7Wt/fIEpWreU5y9PH+SXCNzQuyt0+abVLZLJQygx3YE+r3Mcq9neql8EC/Kaju\nwG5PndaUNt0lv8tJ1/RliPp1HuCwH3CtOd4zDUTIG93Jdztgx36KYwxCkqhRRJx7\nqcoscmdHKta5avnra/mJeqa/qs4getrDPyLs+20iUyasQ1gq0dlVFi039iKDgNqs\nt9BxL2+vabfGuCObUkWSPUnLaPMvo83p1J9FhDiP2Ap48uut9TO0lq5WLwF3ciu6\nILq3X4ZZcQQkcHFEPDIhAUbRQPT3o7Kf2RhRufcM2WNfZgSwvn3TTV/nWOc7ygo=\n=W2JY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4219e13166e86e33474dc24e3c4ef337699ab13a\nparent 3160980571cea1d2d6287794ba59333c4a3b3fbc\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696819271 +0700\ncommitter GitHub <noreply@github.com> 1696819271 +0000\n\nUpdate README.md (#8)\n\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>\r\nCo-authored-by: snucv-pip <116967143+snucv-pip@users.noreply.github.com>"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3160980571cea1d2d6287794ba59333c4a3b3fbc",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/3160980571cea1d2d6287794ba59333c4a3b3fbc",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/3160980571cea1d2d6287794ba59333c4a3b3fbc"
+        }
+      ]
+    },
+    {
+      "sha": "8fa39befadfa5c6de03a10ab3a718f68415c5470",
+      "node_id": "C_kwDOKZO9ktoAKDhmYTM5YmVmYWRmYTVjNmRlMDNhMTBhYjNhNzE4ZjY4NDE1YzU0NzA",
+      "commit": {
+        "author": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T02:44:28Z"
+        },
+        "committer": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T02:44:28Z"
+        },
+        "message": "Just head",
+        "tree": {
+          "sha": "6cb9fd9c4bb8c8d3fc1f57acd3d849b9262a4f12",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/6cb9fd9c4bb8c8d3fc1f57acd3d849b9262a4f12"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/8fa39befadfa5c6de03a10ab3a718f68415c5470",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/8fa39befadfa5c6de03a10ab3a718f68415c5470",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/8fa39befadfa5c6de03a10ab3a718f68415c5470",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/8fa39befadfa5c6de03a10ab3a718f68415c5470/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/07a7cb91ae29ecfe6cf9b5324ce65aaeb685c1d4"
+        }
+      ]
+    },
+    {
+      "sha": "6096f38e08ffb27257c3960fb6a70a8949bbf7d1",
+      "node_id": "C_kwDOKZO9ktoAKDYwOTZmMzhlMDhmZmIyNzI1N2MzOTYwZmI2YTcwYTg5NDliYmY3ZDE",
+      "commit": {
+        "author": {
+          "name": "Sangjun (Aslan) Son",
+          "email": "lucetre@naver.com",
+          "date": "2023-10-09T02:45:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:45:41Z"
+        },
+        "message": "Update README.md (#9)\n\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>",
+        "tree": {
+          "sha": "925f8c69a4347d97fc0d46688dce99ff0ee4d1fa",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/925f8c69a4347d97fc0d46688dce99ff0ee4d1fa"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/6096f38e08ffb27257c3960fb6a70a8949bbf7d1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2lVCRBK7hj4Ov3rIwAAXW8IAB8ffG3sG2INH2hjNG9ZuLqS\nNJX9IEN6GwUNhaRXi2qjm+HZCujqSE3SRa/hIEgVYBRkXJyVIkfuQEq1bdiXjgHu\nXQ1kXMnNeLIhf09PpmfycYEtIbjQSCDQlrQzArN/teFP0IsHfJp3CaGe5ISRC4Ub\ng5RREXDC2pJXi6jj2QLs0HIxJAxsAA5Rj/hskRKrsLjfw3HNsEECSrXGQj5WY+rS\nR+hgx15GLEEBr985up7ObpxMvhKIZnTras7VffpTp6bsuU2g4IwzZD+k6UGz1lDb\nhB/eJ337cDucfmDomTxKeK3uAgvo4U+1cMjV7Yfi0FJGT61VNWERCGw7N0CgNiw=\n=bcCt\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 925f8c69a4347d97fc0d46688dce99ff0ee4d1fa\nparent 8fa39befadfa5c6de03a10ab3a718f68415c5470\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696819541 +0700\ncommitter GitHub <noreply@github.com> 1696819541 +0000\n\nUpdate README.md (#9)\n\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/6096f38e08ffb27257c3960fb6a70a8949bbf7d1",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/6096f38e08ffb27257c3960fb6a70a8949bbf7d1",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/6096f38e08ffb27257c3960fb6a70a8949bbf7d1/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8fa39befadfa5c6de03a10ab3a718f68415c5470",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/8fa39befadfa5c6de03a10ab3a718f68415c5470",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/8fa39befadfa5c6de03a10ab3a718f68415c5470"
+        }
+      ]
+    },
+    {
+      "sha": "c966c26479365833674b7c8c9d456e3412cdc9ca",
+      "node_id": "C_kwDOKZO9ktoAKGM5NjZjMjY0NzkzNjU4MzM2NzRiN2M4YzlkNDU2ZTM0MTJjZGM5Y2E",
+      "commit": {
+        "author": {
+          "name": "Sangjun (Aslan) Son",
+          "email": "lucetre@naver.com",
+          "date": "2023-10-09T02:48:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:48:33Z"
+        },
+        "message": "Update RELEASELOG.md",
+        "tree": {
+          "sha": "6e73c0e7383f3332dd0f23e4d37d0944cc0e1608",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/6e73c0e7383f3332dd0f23e4d37d0944cc0e1608"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/c966c26479365833674b7c8c9d456e3412cdc9ca",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2oBCRBK7hj4Ov3rIwAAZRMIALMnX9A76SXbBfgN+SBXeut+\nOxWCCESdeVkUb9tTit/jYoN8ucUTCo2XTi1uDZhm0W7kcX0bUM8wazSdCrSj0EP8\nsYQuE/83K5ahBmjXN24dJqdyAdJdFEf00meh+xhOrAgD1TUC2TypSfpC1mLvdjTa\n+BBDpH8Dy5Q3R3cOMeK6aIyhLvD9sSNEbFjp/3Ooo5pwHU1l7YvetSOpRcKwvJe/\nxKxkOdKjRo6XwZWsJDouHIUTvg0+sFQ7+jX3Y3eKD2jFz6WZsNAQrJatX7y/BPWJ\npKmPeq4tJkHyz3BcSkOhD5gksPeZYC2kUnOLX2OHIsNCMw8hwfmYXXgiPjHvnu0=\n=nH+V\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6e73c0e7383f3332dd0f23e4d37d0944cc0e1608\nparent 6096f38e08ffb27257c3960fb6a70a8949bbf7d1\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696819713 +0000\ncommitter GitHub <noreply@github.com> 1696819713 +0000\n\nUpdate RELEASELOG.md"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c966c26479365833674b7c8c9d456e3412cdc9ca",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/c966c26479365833674b7c8c9d456e3412cdc9ca",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c966c26479365833674b7c8c9d456e3412cdc9ca/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6096f38e08ffb27257c3960fb6a70a8949bbf7d1",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/6096f38e08ffb27257c3960fb6a70a8949bbf7d1",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/6096f38e08ffb27257c3960fb6a70a8949bbf7d1"
+        }
+      ]
+    },
+    {
+      "sha": "bd10e628b236c2eee0ce4973c0a0268230debe11",
+      "node_id": "C_kwDOKZO9ktoAKGJkMTBlNjI4YjIzNmMyZWVlMGNlNDk3M2MwYTAyNjgyMzBkZWJlMTE",
+      "commit": {
+        "author": {
+          "name": "Sangjun (Aslan) Son",
+          "email": "lucetre@naver.com",
+          "date": "2023-10-09T02:49:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:49:16Z"
+        },
+        "message": "Update create-release-notes-after-ci.yaml",
+        "tree": {
+          "sha": "a3f776824fec3654e91c90fdb9c571f10186bfd8",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/a3f776824fec3654e91c90fdb9c571f10186bfd8"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/bd10e628b236c2eee0ce4973c0a0268230debe11",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2osCRBK7hj4Ov3rIwAAan0IAJTwUaqwotHAO/NuX6pm3mr2\nBB88Ok1qHeq0r42PoB+/4S2AXypjL8lMHeQ7l0qv+BkB78GwON9XUwI32y94mGgK\nr5ezCDyAJz7snyT14iAIhaABXIixIEQuzZ9CUURWzL2e9cOrNmFjZcnm91nh8bc6\nEWfcP3q7cuHsgSkrX6hMV18ZetI9dRIAObs1LDUsYZSpQr0pvuPyYdE4pZ0qyy91\nWiQJFPABWF2cegNClzi84DN1xcRrUM69+DunliZMuJ6NLY8nh6JLVh4D6biHtaXR\np0DQaNNhzE/PgKgE0LxU+2ggi6+0xzQy5es3OYvu3L67v87rV4qNUUezx2vuYbo=\n=owQN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a3f776824fec3654e91c90fdb9c571f10186bfd8\nparent c966c26479365833674b7c8c9d456e3412cdc9ca\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696819756 +0000\ncommitter GitHub <noreply@github.com> 1696819756 +0000\n\nUpdate create-release-notes-after-ci.yaml"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/bd10e628b236c2eee0ce4973c0a0268230debe11",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/bd10e628b236c2eee0ce4973c0a0268230debe11",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/bd10e628b236c2eee0ce4973c0a0268230debe11/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c966c26479365833674b7c8c9d456e3412cdc9ca",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c966c26479365833674b7c8c9d456e3412cdc9ca",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/c966c26479365833674b7c8c9d456e3412cdc9ca"
+        }
+      ]
+    },
+    {
+      "sha": "ae3232b8516c2bc23d74517e907e8d6d89974804",
+      "node_id": "C_kwDOKZO9ktoAKGFlMzIzMmI4NTE2YzJiYzIzZDc0NTE3ZTkwN2U4ZDZkODk5NzQ4MDQ",
+      "commit": {
+        "author": {
+          "name": "musicetre",
+          "email": "135040808+musicetre@users.noreply.github.com",
+          "date": "2023-10-09T02:49:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:49:45Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "c2a4e70f03ad9f3591ed9785dd60ce53df4ef02f",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/c2a4e70f03ad9f3591ed9785dd60ce53df4ef02f"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/ae3232b8516c2bc23d74517e907e8d6d89974804",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2pJCRBK7hj4Ov3rIwAAe/YIAIYCchtqXzzr88AHPy2jSddH\n3l25Y4YMVcAugvnzku1jdlU2VqyzQu4xuvnnrNiVWNGkD02hoX5fhjU1AzDv8Ykl\nNJVaGcvu34DH9tJswVH8qT3A9McDEdr3mgvlBmCMPz2IPfLooxOvVzngppYcATMU\nVX1eVZaLbVC3GLWKwgVzqtoveYvnlqaQZWq3t2cpSg1DrFl8rQHLTcF+xdaHzK5K\nXQr5ttSrtrkvDNN4exRe9EeagiaIldyi/B2sDTpFzKoWWHT8puP0jpOjxWGvyP1U\n5NditJ2F7B43c/MAn3DLhsnmyBfC1PIarPFOoUvA4dcQDernvHqQYoZqgKPGLFs=\n=ze3K\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c2a4e70f03ad9f3591ed9785dd60ce53df4ef02f\nparent bd10e628b236c2eee0ce4973c0a0268230debe11\nauthor musicetre <135040808+musicetre@users.noreply.github.com> 1696819785 +0000\ncommitter GitHub <noreply@github.com> 1696819785 +0000\n\nUpdate README.md"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/ae3232b8516c2bc23d74517e907e8d6d89974804",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/ae3232b8516c2bc23d74517e907e8d6d89974804",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/ae3232b8516c2bc23d74517e907e8d6d89974804/comments",
+      "author": {
+        "login": "musicetre",
+        "id": 135040808,
+        "node_id": "U_kgDOCAyPKA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/135040808?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/musicetre",
+        "html_url": "https://github.com/musicetre",
+        "followers_url": "https://api.github.com/users/musicetre/followers",
+        "following_url": "https://api.github.com/users/musicetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/musicetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/musicetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/musicetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/musicetre/orgs",
+        "repos_url": "https://api.github.com/users/musicetre/repos",
+        "events_url": "https://api.github.com/users/musicetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/musicetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bd10e628b236c2eee0ce4973c0a0268230debe11",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/bd10e628b236c2eee0ce4973c0a0268230debe11",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/bd10e628b236c2eee0ce4973c0a0268230debe11"
+        }
+      ]
+    },
+    {
+      "sha": "c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1",
+      "node_id": "C_kwDOKZO9ktoAKGM4YThmYzU1OThkMDg3ZTRjZWNkODBkZDMxNzBjYzA5ZDNmM2U1YzE",
+      "commit": {
+        "author": {
+          "name": "musicetre",
+          "email": "135040808+musicetre@users.noreply.github.com",
+          "date": "2023-10-09T02:49:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T02:49:54Z"
+        },
+        "message": "Merge pull request #10 from lucetre/lucetre-patch-1\n\nUpdate create-release-notes-after-ci.yaml",
+        "tree": {
+          "sha": "c2a4e70f03ad9f3591ed9785dd60ce53df4ef02f",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/c2a4e70f03ad9f3591ed9785dd60ce53df4ef02f"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI2pSCRBK7hj4Ov3rIwAAuDYIABmEVg/o/tOF8yuozGpASB8M\nXBUR5Ju7UZ1hC3M/hbOcrO4TQcvRzg3RzE+u8mDa3lVy3kW0TnVfXH/GQ1P+XK89\nRKW5CJyIrpQArVwR1rcJh7laCNEqBMBkONpQxr51/DSltK1mLAPyLXGAg8UvGiOw\ntLifM3KwXOrz0cNYbLIdArIpHdQo58k3a2vQuPyiwmuIXZy4xC7mc+xmQZAwA2qy\nkjqLoIHqmnUoWxw6KTaxp/90HS90U3Z2yvJS1lrA+G7+ymo20fJuDi3TnXsVuawM\ngdZp81jv2qQ/U8rDcUR+15t/ATCRwauYmzKCQ5Dr+lIh+lR9DYIxSyEwZh/Z0+w=\n=nBH+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c2a4e70f03ad9f3591ed9785dd60ce53df4ef02f\nparent c966c26479365833674b7c8c9d456e3412cdc9ca\nparent ae3232b8516c2bc23d74517e907e8d6d89974804\nauthor musicetre <135040808+musicetre@users.noreply.github.com> 1696819794 +0900\ncommitter GitHub <noreply@github.com> 1696819794 +0900\n\nMerge pull request #10 from lucetre/lucetre-patch-1\n\nUpdate create-release-notes-after-ci.yaml"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1/comments",
+      "author": {
+        "login": "musicetre",
+        "id": 135040808,
+        "node_id": "U_kgDOCAyPKA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/135040808?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/musicetre",
+        "html_url": "https://github.com/musicetre",
+        "followers_url": "https://api.github.com/users/musicetre/followers",
+        "following_url": "https://api.github.com/users/musicetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/musicetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/musicetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/musicetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/musicetre/orgs",
+        "repos_url": "https://api.github.com/users/musicetre/repos",
+        "events_url": "https://api.github.com/users/musicetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/musicetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c966c26479365833674b7c8c9d456e3412cdc9ca",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c966c26479365833674b7c8c9d456e3412cdc9ca",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/c966c26479365833674b7c8c9d456e3412cdc9ca"
+        },
+        {
+          "sha": "ae3232b8516c2bc23d74517e907e8d6d89974804",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/ae3232b8516c2bc23d74517e907e8d6d89974804",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/ae3232b8516c2bc23d74517e907e8d6d89974804"
+        }
+      ]
+    },
+    {
+      "sha": "a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e",
+      "node_id": "C_kwDOKZO9ktoAKGEwYjBiZDRlYmE2YjBkYzgwYWI5MTQ1MWY1ZmQ2MTVlMDc4Y2RlMWU",
+      "commit": {
+        "author": {
+          "name": "Sangjun (Aslan) Son",
+          "email": "lucetre@naver.com",
+          "date": "2023-10-09T03:05:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T03:05:42Z"
+        },
+        "message": "Update README.md (#11)\n\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>",
+        "tree": {
+          "sha": "b7c1142223e36961dba46711b714ec5449d87262",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/b7c1142223e36961dba46711b714ec5449d87262"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI24GCRBK7hj4Ov3rIwAA+S0IAKp0Dk0yii/1BrXCebyvkdtl\nJ37k24cDMJ8N41+W7Wai/JY6ITI/t5x33UfvSu7A9x6Sdtuk9s37LVOsoH6lXchz\np5EOFUJcWeri95qvFgDucJcY+WLFSvDD1PhALLYpPnbtPMvyRTG6Lm7KQ9JfAUx0\nzH9b3MIBcV7GUXlHHCc2ovUUS5ySihbm0otQkSqZJ8YCZWNf4/6ZAcHKoeNQ6YX7\nmD9+2oVVdWGFpBSOMzHECzCkkXCnDdhlrMO3oxXcc7LcBfgLt583LSwI11mfM3nj\n8h1mfxel9s0IdCnIenyVxCnJuxitJTCokye/uTdMtkvQQo8xQ9kLxIbmYzvNEbU=\n=JOAK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b7c1142223e36961dba46711b714ec5449d87262\nparent c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696820742 +0700\ncommitter GitHub <noreply@github.com> 1696820742 +0000\n\nUpdate README.md (#11)\n\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n---------\r\n\r\nCo-authored-by: musicetre <135040808+musicetre@users.noreply.github.com>"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/c8a8fc5598d087e4cecd80dd3170cc09d3f3e5c1"
+        }
+      ]
+    },
+    {
+      "sha": "cc41a2df9767f905bc9160a34ca1e641bbe67e61",
+      "node_id": "C_kwDOKZO9ktoAKGNjNDFhMmRmOTc2N2Y5MDViYzkxNjBhMzRjYTFlNjQxYmJlNjdlNjE",
+      "commit": {
+        "author": {
+          "name": "musicetre",
+          "email": "135040808+musicetre@users.noreply.github.com",
+          "date": "2023-10-09T03:06:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T03:06:08Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "876602bc021aab5db701ffe8a9d5c6657ae774ab",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/876602bc021aab5db701ffe8a9d5c6657ae774ab"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/cc41a2df9767f905bc9160a34ca1e641bbe67e61",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI24gCRBK7hj4Ov3rIwAAxNEIAEPi/Pk0uvZJn2M9UKbhXNGw\n67WTZ/U0YwnQ5awE6VR46+FjO8yFXIPIlfFWrfcxv7U0JpGu7KJ6Et9vosCNfwjB\nvUusOAHD9hB3PF5KAfJ2MRbnkau+nDVMX1KtwKbxbhJgAhKdSzlq3Yhq5bNFd28Q\nRbqyaYUm9jY3UC3pYg+wPY1QNTbXvsm2EF8QVaqA4KDu52VPCjYy84kmOygGr/GW\ncQ72puXK89FXizw2nOlBLrciqUtNWRF5A2NI+5bl2le6a/MuSDh3VmQFSci77FlC\nIsziYTLNafl9FEEzO26EY7xnBIq135YHvBFn5SgJmUU8mEdAamDXv/c+KvTGiNg=\n=ejhT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 876602bc021aab5db701ffe8a9d5c6657ae774ab\nparent a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e\nauthor musicetre <135040808+musicetre@users.noreply.github.com> 1696820768 +0000\ncommitter GitHub <noreply@github.com> 1696820768 +0000\n\nUpdate README.md"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/cc41a2df9767f905bc9160a34ca1e641bbe67e61",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/cc41a2df9767f905bc9160a34ca1e641bbe67e61",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/cc41a2df9767f905bc9160a34ca1e641bbe67e61/comments",
+      "author": {
+        "login": "musicetre",
+        "id": 135040808,
+        "node_id": "U_kgDOCAyPKA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/135040808?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/musicetre",
+        "html_url": "https://github.com/musicetre",
+        "followers_url": "https://api.github.com/users/musicetre/followers",
+        "following_url": "https://api.github.com/users/musicetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/musicetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/musicetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/musicetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/musicetre/orgs",
+        "repos_url": "https://api.github.com/users/musicetre/repos",
+        "events_url": "https://api.github.com/users/musicetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/musicetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/a0b0bd4eba6b0dc80ab91451f5fd615e078cde1e"
+        }
+      ]
+    },
+    {
+      "sha": "e05c8d75acd2aeae340facf845480c6b202212cb",
+      "node_id": "C_kwDOKZO9ktoAKGUwNWM4ZDc1YWNkMmFlYWUzNDBmYWNmODQ1NDgwYzZiMjAyMjEyY2I",
+      "commit": {
+        "author": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T03:04:39Z"
+        },
+        "committer": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T03:07:06Z"
+        },
+        "message": "Update version tag",
+        "tree": {
+          "sha": "b16d08240f79dd255a52ebbeb8d7bc1a4564e0f8",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/b16d08240f79dd255a52ebbeb8d7bc1a4564e0f8"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/e05c8d75acd2aeae340facf845480c6b202212cb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/e05c8d75acd2aeae340facf845480c6b202212cb",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/e05c8d75acd2aeae340facf845480c6b202212cb",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/e05c8d75acd2aeae340facf845480c6b202212cb/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cc41a2df9767f905bc9160a34ca1e641bbe67e61",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/cc41a2df9767f905bc9160a34ca1e641bbe67e61",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/cc41a2df9767f905bc9160a34ca1e641bbe67e61"
+        }
+      ]
+    },
+    {
+      "sha": "49b826187df264f770d14fb44262ecab291b8f9b",
+      "node_id": "C_kwDOKZO9ktoAKDQ5YjgyNjE4N2RmMjY0Zjc3MGQxNGZiNDQyNjJlY2FiMjkxYjhmOWI",
+      "commit": {
+        "author": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T03:14:08Z"
+        },
+        "committer": {
+          "name": "Sangjun Son",
+          "email": "sangjun.son@moloco.com",
+          "date": "2023-10-09T03:14:08Z"
+        },
+        "message": "Fix typo on previous release tag",
+        "tree": {
+          "sha": "2081cad6d33aaaab77ef6e3e160f716d7ca489ae",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/2081cad6d33aaaab77ef6e3e160f716d7ca489ae"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/49b826187df264f770d14fb44262ecab291b8f9b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/49b826187df264f770d14fb44262ecab291b8f9b",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/49b826187df264f770d14fb44262ecab291b8f9b",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/49b826187df264f770d14fb44262ecab291b8f9b/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e05c8d75acd2aeae340facf845480c6b202212cb",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/e05c8d75acd2aeae340facf845480c6b202212cb",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/e05c8d75acd2aeae340facf845480c6b202212cb"
+        }
+      ]
+    },
+    {
+      "sha": "d9470cbee02253b68709d89863189457c29f7bb5",
+      "node_id": "C_kwDOKZO9ktoAKGQ5NDcwY2JlZTAyMjUzYjY4NzA5ZDg5ODYzMTg5NDU3YzI5ZjdiYjU",
+      "commit": {
+        "author": {
+          "name": "Sangjun (Aslan) Son",
+          "email": "lucetre@naver.com",
+          "date": "2023-10-09T03:14:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T03:14:27Z"
+        },
+        "message": "Update RELEASELOG.md",
+        "tree": {
+          "sha": "527796aac676841376f0fc32f3f68ee1564bad02",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/527796aac676841376f0fc32f3f68ee1564bad02"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/d9470cbee02253b68709d89863189457c29f7bb5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI3ATCRBK7hj4Ov3rIwAARpMIAJjPN2QzOyrrz3QCnbAC5nI2\nrx2wYQHw0UuuFFdZsC7IYrofzOzsJUDdiAzr67Sr7PeH+DnpYQcS0SBqjGzHo0GA\ngm1emnwB0/QCidZXbC/XX963L32xxV6jUhBFoQBcY5JH8zJDtjhSgaC1snrk6Alt\nUaK3fPORHgZv/7ua9sOZDnSBo/hYJqFpdf8JlfGjME/WF7qR+MfPLsgldh7IjvbH\nMAC132cIdavocbAD8qm29grdqjbU9Rt5fZPzyFrznbBUWQjv2avMlNySLKTwcnCR\nglyVGRB51riwsnIe+FStvhdattBepbNU3r5MPabgUNonAERKueE7TyestGd63kw=\n=4VY5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 527796aac676841376f0fc32f3f68ee1564bad02\nparent 49b826187df264f770d14fb44262ecab291b8f9b\nauthor Sangjun (Aslan) Son <lucetre@naver.com> 1696821267 +0000\ncommitter GitHub <noreply@github.com> 1696821267 +0000\n\nUpdate RELEASELOG.md"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/d9470cbee02253b68709d89863189457c29f7bb5",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/d9470cbee02253b68709d89863189457c29f7bb5",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/d9470cbee02253b68709d89863189457c29f7bb5/comments",
+      "author": {
+        "login": "lucetre",
+        "id": 26702243,
+        "node_id": "MDQ6VXNlcjI2NzAyMjQz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26702243?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lucetre",
+        "html_url": "https://github.com/lucetre",
+        "followers_url": "https://api.github.com/users/lucetre/followers",
+        "following_url": "https://api.github.com/users/lucetre/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lucetre/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lucetre/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lucetre/subscriptions",
+        "organizations_url": "https://api.github.com/users/lucetre/orgs",
+        "repos_url": "https://api.github.com/users/lucetre/repos",
+        "events_url": "https://api.github.com/users/lucetre/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lucetre/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "49b826187df264f770d14fb44262ecab291b8f9b",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/49b826187df264f770d14fb44262ecab291b8f9b",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/49b826187df264f770d14fb44262ecab291b8f9b"
+        }
+      ]
+    },
+    {
+      "sha": "53b62ba2ce31b039db526e4622505b0ed0915026",
+      "node_id": "C_kwDOKZO9ktoAKDUzYjYyYmEyY2UzMWIwMzlkYjUyNmU0NjIyNTA1YjBlZDA5MTUwMjY",
+      "commit": {
+        "author": {
+          "name": "snucv-pip",
+          "email": "116967143+snucv-pip@users.noreply.github.com",
+          "date": "2023-10-09T03:19:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-09T03:19:09Z"
+        },
+        "message": "Update README.md (#12)",
+        "tree": {
+          "sha": "188503dfd68a4523baef49b2780396c7ffebf04a",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/git/trees/188503dfd68a4523baef49b2780396c7ffebf04a"
+        },
+        "url": "https://api.github.com/repos/lucetre/action-release-notes/git/commits/53b62ba2ce31b039db526e4622505b0ed0915026",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlI3EtCRBK7hj4Ov3rIwAAa4gIABV/7Thfb2U/N6PahOFWg2Gi\noNVyggU7XcW7eUkMuNExACFBd7DFbEZhJTUOZ9dBjy3Wr6CkAPvT0aiTs18bVUw8\n1Stug2vXik243a6aN6D2qXGU2doolR9XiOdEBWr7cfrtR2afH0O5yP+nxiGQyB0y\nXslRuhT7Ns9lU+Xw8P72A4dDtJrOCliy+brcC0v7eAt7WXhHVShfhvsYW6FgviVT\nTuQXDQgeeci68vK0GXrylLF8y4b/D593xrN95jfovBfkzl4h4TBKRpov7oW+LUzG\nz3r3/Qv7127GZyO0oaSXUW17MFG9dcUwOHtVQ0A9Y0PV24FvumnCO8OzqwBrqnY=\n=BBw1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 188503dfd68a4523baef49b2780396c7ffebf04a\nparent d9470cbee02253b68709d89863189457c29f7bb5\nauthor snucv-pip <116967143+snucv-pip@users.noreply.github.com> 1696821549 +0900\ncommitter GitHub <noreply@github.com> 1696821549 +0000\n\nUpdate README.md (#12)\n\n"
+        }
+      },
+      "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/53b62ba2ce31b039db526e4622505b0ed0915026",
+      "html_url": "https://github.com/lucetre/action-release-notes/commit/53b62ba2ce31b039db526e4622505b0ed0915026",
+      "comments_url": "https://api.github.com/repos/lucetre/action-release-notes/commits/53b62ba2ce31b039db526e4622505b0ed0915026/comments",
+      "author": {
+        "login": "snucv-pip",
+        "id": 116967143,
+        "node_id": "U_kgDOBvjG5w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116967143?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/snucv-pip",
+        "html_url": "https://github.com/snucv-pip",
+        "followers_url": "https://api.github.com/users/snucv-pip/followers",
+        "following_url": "https://api.github.com/users/snucv-pip/following{/other_user}",
+        "gists_url": "https://api.github.com/users/snucv-pip/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/snucv-pip/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/snucv-pip/subscriptions",
+        "organizations_url": "https://api.github.com/users/snucv-pip/orgs",
+        "repos_url": "https://api.github.com/users/snucv-pip/repos",
+        "events_url": "https://api.github.com/users/snucv-pip/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/snucv-pip/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d9470cbee02253b68709d89863189457c29f7bb5",
+          "url": "https://api.github.com/repos/lucetre/action-release-notes/commits/d9470cbee02253b68709d89863189457c29f7bb5",
+          "html_url": "https://github.com/lucetre/action-release-notes/commit/d9470cbee02253b68709d89863189457c29f7bb5"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "e4e37056976a48fe7fb86b4a8a63693a06742333",
+      "filename": ".github/workflows/create-release-notes-after-ci.yaml",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 8,
+      "changes": 18,
+      "blob_url": "https://github.com/lucetre/action-release-notes/blob/53b62ba2ce31b039db526e4622505b0ed0915026/.github%2Fworkflows%2Fcreate-release-notes-after-ci.yaml",
+      "raw_url": "https://github.com/lucetre/action-release-notes/raw/53b62ba2ce31b039db526e4622505b0ed0915026/.github%2Fworkflows%2Fcreate-release-notes-after-ci.yaml",
+      "contents_url": "https://api.github.com/repos/lucetre/action-release-notes/contents/.github%2Fworkflows%2Fcreate-release-notes-after-ci.yaml?ref=53b62ba2ce31b039db526e4622505b0ed0915026",
+      "patch": "@@ -27,19 +27,21 @@ jobs:\n     steps:\n       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it\n       - uses: actions/checkout@v3\n-        with:\n-          fetch-depth: 0\n \n       - name: Set version tag\n         id: set-version\n         run: |\n-          MICROSERVICE=${MICROSERVICE:=apple}\n           BUILD_VERSION=v$(date '+%Y%m%d%H%M')\n-          gh release list | grep \"$MICROSERVICE/*\"\n+          MICROSERVICE=${MICROSERVICE:=apple}\n           echo \"microservice=$MICROSERVICE\" >> $GITHUB_OUTPUT\n-          echo \"prev-release-tag=$(gh release list | grep -m1 \"$MICROSERVICE/*\" | cut -f3)\" >> $GITHUB_OUTPUT\n           echo \"curr-release-tag=$MICROSERVICE/$BUILD_VERSION\" >> $GITHUB_OUTPUT\n           echo \"curr-release-title=$MICROSERVICE: $BUILD_VERSION\" >> $GITHUB_OUTPUT\n+\n+          PREV_RELEASE_TAG=$(gh release list | grep -m1 \"$MICROSERVICE/*\" | cut -f3)\n+          if [ -z \"$PREV_RELEASE_TAG\" ]; then\n+            PREV_RELEASE_TAG=$(gh release list | head -n 1 | cut -f3)\n+          fi\n+          echo \"prev-release-tag=$PREV_RELEASE_TAG\" >> $GITHUB_OUTPUT\n         env:\n           GH_TOKEN: ${{ github.token }}\n           MICROSERVICE: ${{ inputs.microservice }}\n@@ -62,15 +64,15 @@ jobs:\n             /repos/${GITHUB_REPOSITORY}/compare/${{ env.BASEHEAD }})\n \n           # Print the Markdown table header\n-          echo \"| Author Login | Commit Date | Commit Message |\" >> ${{ env.RELEASE_NOTES_FILE }}\n-          echo \"|--------------|-------------|----------------|\" >> ${{ env.RELEASE_NOTES_FILE }}\n+          echo \"| Author | Date | Commit Message |\" >> ${{ env.RELEASE_NOTES_FILE }}\n+          echo \"|--------|------|----------------|\" >> ${{ env.RELEASE_NOTES_FILE }}\n \n           # Use jq to extract the commits as raw JSON lines\n           jq -c '.commits[]' <<< \"$json_data\" | while read -r commit; do\n               # Extract the author's login, commit date, and commit message\n               author_login=$(echo \"$commit\" | jq -r '.author.login')\n               commit_date=$(echo \"$commit\" | jq -r '.commit.author.date')\n-              commit_message=$(echo \"$commit\" | jq -r '.commit.message')\n+              commit_message=$(echo \"$commit\" | jq -r '.commit.message' | head -n 1)\n               \n               # Print the values as a Markdown table row\n               echo \"| @$author_login | $commit_date | $commit_message |\" >> ${{ env.RELEASE_NOTES_FILE }}"
+    },
+    {
+      "sha": "3b71b645cc203a0c087cb09c12cea9ed8d8d6678",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "changes": 7,
+      "blob_url": "https://github.com/lucetre/action-release-notes/blob/53b62ba2ce31b039db526e4622505b0ed0915026/README.md",
+      "raw_url": "https://github.com/lucetre/action-release-notes/raw/53b62ba2ce31b039db526e4622505b0ed0915026/README.md",
+      "contents_url": "https://api.github.com/repos/lucetre/action-release-notes/contents/README.md?ref=53b62ba2ce31b039db526e4622505b0ed0915026",
+      "patch": "@@ -3,3 +3,10 @@\n - () snucvpip\n - (banana) musicetre\n - (apple, banana, cat) lucetre\n+- (duck) lucetre, musicetre, snucvpip\n+- () snucvpip\n+- (duck, apple) lucetre, musicetre\n+- (cat) musicetre, lucetre\n+- (cat, duck) lucetre, musicetre\n+- () musicetre\n+- (banana) snucvpip"
+    },
+    {
+      "sha": "7c87c76ca2a8fd0f77b99ad382cbd5f560368d60",
+      "filename": "RELEASELOG.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/lucetre/action-release-notes/blob/53b62ba2ce31b039db526e4622505b0ed0915026/RELEASELOG.md",
+      "raw_url": "https://github.com/lucetre/action-release-notes/raw/53b62ba2ce31b039db526e4622505b0ed0915026/RELEASELOG.md",
+      "contents_url": "https://api.github.com/repos/lucetre/action-release-notes/contents/RELEASELOG.md?ref=53b62ba2ce31b039db526e4622505b0ed0915026",
+      "patch": "@@ -1,5 +1,5 @@\n ## Release Summary\n-Kindly provide the summary notes for the current release.\n+To contributors of this release, please provide the summary notes for the current release.\n \n ## Commit History\n Here is the list of commits from the previous tag [**`{{ env.get('PREV_RELEASE_TAG') }}`**](https://github.com/{{ env.get('GITHUB_REPOSITORY') }}/releases/tag/{{ env.get('PREV_RELEASE_TAG') }}) to the current tag [**`{{ env.get('CURR_RELEASE_TAG') }}`**](https://github.com/{{ env.get('GITHUB_REPOSITORY') }}/releases/tag/{{ env.get('PREV_RELEASE_TAG') }})."
+    }
+  ]
+}

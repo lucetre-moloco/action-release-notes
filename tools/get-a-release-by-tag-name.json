@@ -1,0 +1,42 @@
+{
+  "url": "https://api.github.com/repos/lucetre/action-release-notes/releases/124202209",
+  "assets_url": "https://api.github.com/repos/lucetre/action-release-notes/releases/124202209/assets",
+  "upload_url": "https://uploads.github.com/repos/lucetre/action-release-notes/releases/124202209/assets{?name,label}",
+  "html_url": "https://github.com/lucetre/action-release-notes/releases/tag/banana/v202310090321",
+  "id": 124202209,
+  "author": {
+    "login": "github-actions[bot]",
+    "id": 41898282,
+    "node_id": "MDM6Qm90NDE4OTgyODI=",
+    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+    "html_url": "https://github.com/apps/github-actions",
+    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+    "type": "Bot",
+    "site_admin": false
+  },
+  "node_id": "RE_kwDOKZO9ks4HZyzh",
+  "tag_name": "banana/v202310090321",
+  "target_commitish": "53b62ba2ce31b039db526e4622505b0ed0915026",
+  "name": "banana: v202310090321",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2023-10-09T03:19:09Z",
+  "published_at": "2023-10-09T03:21:39Z",
+  "assets": [
+
+  ],
+  "tarball_url": "https://api.github.com/repos/lucetre/action-release-notes/tarball/banana/v202310090321",
+  "zipball_url": "https://api.github.com/repos/lucetre/action-release-notes/zipball/banana/v202310090321",
+  "body": "## Release Summary\nTo contributors of this release, please provide the summary notes for the current release.\n\n## Commit History\nHere is the list of commits from the previous tag [**`banana/v202310090235`**](https://github.com/lucetre/action-release-notes/releases/tag/banana/v202310090235) to the current tag [**`banana/v202310090321`**](https://github.com/lucetre/action-release-notes/releases/tag/banana/v202310090235).\nYou can also access the full changelog, including detailed file changes, by clicking the link below the table.\n| Author | Date | Commit Message |\n|--------|------|----------------|\n| @lucetre | 2023-10-09T02:38:46Z | Remove newline |\n| @snucv-pip | 2023-10-09T02:40:37Z | Update README.md |\n| @lucetre | 2023-10-09T02:41:11Z | Update README.md (#8) |\n| @lucetre | 2023-10-09T02:44:28Z | Just head |\n| @lucetre | 2023-10-09T02:45:41Z | Update README.md (#9) |\n| @lucetre | 2023-10-09T02:48:33Z | Update RELEASELOG.md |\n| @lucetre | 2023-10-09T02:49:16Z | Update create-release-notes-after-ci.yaml |\n| @musicetre | 2023-10-09T02:49:45Z | Update README.md |\n| @musicetre | 2023-10-09T02:49:54Z | Merge pull request #10 from lucetre/lucetre-patch-1 |\n| @lucetre | 2023-10-09T03:05:42Z | Update README.md (#11) |\n| @musicetre | 2023-10-09T03:06:08Z | Update README.md |\n| @lucetre | 2023-10-09T03:04:39Z | Update version tag |\n| @lucetre | 2023-10-09T03:14:08Z | Fix typo on previous release tag |\n| @lucetre | 2023-10-09T03:14:27Z | Update RELEASELOG.md |\n| @snucv-pip | 2023-10-09T03:19:09Z | Update README.md (#12) |\n\n## What's Changed\n* Update README.md by @lucetre in https://github.com/lucetre/action-release-notes/pull/8\n* Update README.md by @lucetre in https://github.com/lucetre/action-release-notes/pull/9\n* Update create-release-notes-after-ci.yaml by @lucetre in https://github.com/lucetre/action-release-notes/pull/10\n* Update README.md by @lucetre in https://github.com/lucetre/action-release-notes/pull/11\n* Update README.md by @snucv-pip in https://github.com/lucetre/action-release-notes/pull/12\n\n\n**Full Changelog**: https://github.com/lucetre/action-release-notes/compare/banana/v202310090235...banana/v202310090321",
+  "mentions_count": 3
+}
